@@ -1,0 +1,351 @@
+@import url('https://fonts.googleapis.com/css?family=Big+Shoulders+Text:400,500,600,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,600&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    display: flex;
+}
+
+nav a:link {
+    font-family: 'Big Shoulders Text', cursive;
+    font-weight: 600;
+    font-size: 30px;
+    padding: 10px;
+    background-color: white;
+    flex-grow: 1;
+    text-decoration: none;
+    color: #8E7B2E;
+    text-align: center;
+    
+}
+
+
+nav a:visited {
+    color: #8E7B2E;
+}
+
+nav a:hover {
+    background-color: #8E7B2E;
+    color: white;
+}
+
+
+
+p {
+    font-family: 'Ralway', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 20px;
+}
+
+h1, h2, h3 {
+    font-family: 'Big Shoulders Text', cursive;
+    font-weight: 500;
+    font-size: 50px;
+    color: white;
+}
+
+#s1 {
+    width: 100%;
+    height:  90vh;
+    background: url(../images/marantzamp2.jpg) no-repeat fixed center center;
+    background-size: cover;
+    display: flex;
+    /* justify content for horizontal alignment*/
+    justify-content: center;
+    /* align items for vertical alignment*/
+    align-items: center;
+    border: 10px solid white;
+    
+}
+
+
+#s1 img {
+    width: 700px;
+    height: auto;
+    max-height 80vh;  
+    max-width: 80vw;
+    justify-content: center;
+    position: absolute;
+/*adding opacity makes it visible over the nav bar*/
+    
+}
+
+#s1 h1 {
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 50px;
+    font-weight: 400;;
+    color: white;
+    position: absolute;
+    top: 70%;
+
+}
+
+#s1 h2 {
+    font-family: 'Lato', sans-serif;
+    font-size: 24px;
+    text-transform: lowercase;
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.multi {
+    width: 100%;
+    padding: 40px;
+    background-color: #8E7B2E;
+    
+    
+}
+
+.multi article {
+    column-count: 3;
+    column-gap: 20px;
+    color: white;
+    
+}
+
+#s2 {
+    width: 100%;
+    min-height: 60vh;
+    height: auto;
+    background: url(../images/optonicaamp.jpg) no-repeat fixed center center;
+    background-size: cover;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items align-self: center;
+    border: 10px solid #8E7B2E;
+    padding: 20px;
+}
+
+#s2 article {
+    width:50%;
+    background-color: white;
+    border: 5px solid #8E7B2E;
+    padding:20px;
+    margin-bottom: 20px;
+    
+
+    
+}
+
+#s2 h2 {
+    font-family: 'Big Shoulders Text', cursive;
+    font-size: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #8E7B2E;
+}
+
+
+#s3 {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    background: url(../images/woodtable.jpg) no-repeat fixed center center;
+    background-size: cover;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border: 20px solid #fff;
+    padding: 20px;
+    
+}
+
+#s3 article {
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    /*width: 30%;*/
+
+}
+
+footer {
+    background-color: #8E7B2E;
+    color: white;
+    padding: 20px;
+    margin: 20px;
+}
+
+footer :link {
+    font-family: 'Big Shoulders Text', cursive;
+    font-weight: 500;
+    font-size: 30px;
+    flex-grow: 1;
+    text-decoration: none;
+    color: WHITE;
+    text-align: center;
+    
+}
+
+
+/*===SELL PAGE HERE===*/
+
+#sell {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    background: url(../images/multiamps.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 40px;
+    display: inline-flex;
+    align-items: flex-end;
+
+}
+
+/*===STORE PAGE HERE===*/
+
+#store img {
+    width: 500px;
+    height: auto;
+    display: inline-flex;
+    flex-flow: row nowrap;
+    height: 100%;
+    padding: 10px;
+    
+
+}
+
+#store article {
+    width: 100%;
+    padding: 60px;
+    background-color: white;
+    border: 20px solid #8E7B2E;
+    border-bottom: 5px solid #8E7B2E;
+    
+}
+
+
+#store p {
+    font-family: 'Ralway', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+    color: #8E7B2E;
+    line-height: 24px;
+    margin-bottom: 20px;
+    padding: 10px;
+    column-count: 2;
+    column-gap: 20px;
+    
+}
+
+#store h1{
+    font-family: 'Big Shoulders Text', cursive;
+    font-weight: 500;
+    font-size: 70px;
+    color: #8E7B2E;
+    padding: 10px;
+}
+
+#store h2 {
+    font-family: 'Ralway', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 400;
+    color: #8E7B2E;
+    padding: 10px;
+    
+
+}
+
+#store h3{
+    font-family: 'Big Shoulders Text', cursive;
+    font-weight: 500;
+    font-size:50px;
+    color: #8E7B2E;
+    padding: 10px;
+}
+
+/*===SERVICE PAGE HERE===*/
+
+
+
+
+#service1 {
+    
+    background: url(../images/repair1.jpg) no-repeat fixed center center;
+    background-size: cover;
+    width:100%;
+    min-height: 100vh;
+    height:auto;
+    
+    
+}
+
+#service2 {
+    background: url(../images/repair3.jpg) no-repeat fixed center center;
+    background-size: cover;
+    padding: 40px;
+    width:100%;
+    min-height: 100vh;
+    
+}
+#service3 {
+    background: url(../images/repair7.jpg) no-repeat fixed center center;
+    background-size: cover;
+    width:100%;
+    min-height: 100vh;
+    height:auto;
+    position: relative;
+   border-top: 200px solid transparent;
+   margin: -200px 0 0;
+   background-clip: padding-box;
+    
+}
+
+#service1 article {
+    width:40%;
+    background:#8E7B2E;
+    padding:20px;
+    right:40px;
+    bottom:50px;
+    position: absolute;
+    color: white;
+}
+
+#service2 article {
+    width:40%;
+    background:#8E7B2E;
+    padding:20px;
+    margin-bottom: 20px;
+    color: white;
+}
+
+
+#service3 article {
+    width:40%;
+    background:#8E7B2E;
+    padding:20px;
+    position:absolute;
+    right:40px;
+    top:40px;
+    color: white;
+}
+    
+/*===SELL PAGE HERE===*/
+
+#contact {
+    width: 100%;
+    min-height: 100vh;
+    height: auto;
+    background: url(../images/yamreceiver.jpg) no-repeat center center;
+    background-size: cover;
+    padding: 40px;
+    display: inline-flex;
+    align-items: flex-end;
+
+}
+
+
+
+
